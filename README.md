@@ -27,7 +27,6 @@ Para actualizarlo de nuevo, des de consola.
 ```
 cd msc_python
 git pull
-cd Python
 ```
 
 ### CREAR EN LOCAL UN NUEVO ENVIRONMENT DE ANACONDA
@@ -52,7 +51,7 @@ conda info --envs
 ### INSTALA LAS LIBRERIAS DE PYTHON
 
 ```
-cd mbdds_fc20/Python
+cd msc_python
 conda activate msc_python
 python -m pip install -r requirementsColab.txt
 ```
